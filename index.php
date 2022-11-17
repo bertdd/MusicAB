@@ -1,3 +1,3 @@
 <?php
 
-echo 'Goodbye cruel World!';
+echo 'Goodbye cruel silly World!';
