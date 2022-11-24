@@ -6,15 +6,6 @@ $person1 = new Artist("Bruce", "Springsteen");
 //echo $person1->LastName;
 echo "bla";
 
-class Album
-{
-  public string $Title;
-
-  public DateTime $ReleaseDate;
-
-  public array $Tracks;
-
-}
 
 class Track
 {
