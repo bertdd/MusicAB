@@ -1,5 +1,5 @@
 <?php
 
-echo 'Goodbye cruel silly World!';
+echo 'Goodbye cruel silly disgusting World!';
 // Akif was here
 ?>
