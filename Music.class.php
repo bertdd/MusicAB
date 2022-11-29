@@ -36,4 +36,5 @@ class Artist extends Person
 
 
 
+
 ?>
