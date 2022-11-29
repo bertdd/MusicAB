@@ -1,5 +1,7 @@
 <?php
 
+require_once ('Membership.Class.php');
+
 echo "test";
 $person1 = new Artist("Bruce", "Springsteen");
 //$person1->Biography = "Speelde in de bav
@@ -29,30 +31,6 @@ class Artist extends Person
   public array $Band;
 
   public string $Biography;
-}
-
-class Membership
-{
-  public Artist $Artist;
-
-  public DateTime $From;
-
-  public DateTime $To;
-}
-
-class Band
-{
-  public string $Name;
-
-  public array $Members;
-
-  public array $Photos;
-
-  public string $History;
-
-  public DateTime $From;
-
-  public DateTime $To;
 }
 
 
