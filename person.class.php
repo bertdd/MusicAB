@@ -3,7 +3,7 @@ class Person
 {
   public int $Id;
 
-  public array $FirstName;
+  public string $FirstName;
 
   public string $LastName;
 
