@@ -1,12 +1,12 @@
 <?php
 
 require_once ('Membership.Class.php');
+require_once ('Person.Class.php');
+require_once ('Band.class.php');
 
-echo "test";
-$person1 = new Artist("Bruce", "Springsteen");
+
 //$person1->Biography = "Speelde in de bav
 //echo $person1->LastName;
-echo "bla";
 
 
 class Track
@@ -22,10 +22,11 @@ class Track
 
 class Artist extends Person
 {
-  public function __construct(string $firstName, string $lastName)
+  public function __construct(string $FirstName, string $lastName)
   {
-    //$this->FirstName = $firstName;
-    //$this->LastName = $lastName;
+    $this->FirstName = $FirstName;
+    $this->LastName = $lastName;
+    $this->Initials = $this->FirstName[0] . " . " . $this->LastName[0];
   }
 
   public array $Band;
