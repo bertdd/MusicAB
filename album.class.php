@@ -8,4 +8,3 @@ class Album
   public array $Tracks;
 
 }
-?>

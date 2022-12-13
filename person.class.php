@@ -25,4 +25,3 @@ class Person
 
   //public DateTime $DateOfDeath;
 }
-?>

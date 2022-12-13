@@ -8,5 +8,3 @@ class Membership
 
   public DateTime $To;
 }
-
-?>

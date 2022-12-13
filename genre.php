@@ -8,4 +8,3 @@ enum Genre
   case ClassicRock;
   case LoveSongs;
 }
-?>
