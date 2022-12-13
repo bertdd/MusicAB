@@ -34,7 +34,4 @@ class Artist extends Person
   public string $Biography;
 }
 
-
-
-
 ?>
